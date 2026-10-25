@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Favilla
+GenericName=Device Lighting
+Comment=Lighting and settings for SteelSeries keyboards and mice
+Exec=@BINDIR@/favilla
+Icon=io.github.fontanamichele.Favilla
+Terminal=false
+Categories=Settings;HardwareSettings;Qt;
+Keywords=SteelSeries;RGB;keyboard;mouse;lighting;DPI;

@@ -1,0 +1,5 @@
+# Favilla: let the user sitting at the computer use SteelSeries HID devices
+# (keyboards, mice) without root. Install with:
+#   sudo install -m644 data/udev/60-favilla.rules /etc/udev/rules.d/
+#   sudo udevadm control --reload && sudo udevadm trigger --subsystem-match=hidraw
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1038", TAG+="uaccess"
