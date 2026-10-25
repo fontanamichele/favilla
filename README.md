@@ -9,6 +9,10 @@
   An open source alternative to SteelSeries GG.
 </p>
 
+<p align="center">
+  <a href="https://github.com/fontanamichele/favilla/actions/workflows/tests.yml"><img src="https://github.com/fontanamichele/favilla/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
+</p>
+
 ![The Favilla lighting page](docs/images/lighting.png)
 
 > **Early days.** Favilla is a young project: it works well on the devices
@@ -111,7 +115,8 @@ More in [docs/architecture.md](docs/architecture.md) and in the
   output, the model and whether lighting works.
 - **Add a device.** [docs/adding-a-device.md](docs/adding-a-device.md) explains
   the driver interface and how to capture the protocol.
-- **Run the tests** before sending changes:
+- **Run the tests** before sending changes. They also run on GitHub for every
+  push and pull request.
 
   ```bash
   PYTHONPATH=src python3 -m unittest discover -s tests
